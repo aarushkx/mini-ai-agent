@@ -1,0 +1,28 @@
+{
+  "name": "ai-todo-agent",
+  "version": "1.0.0",
+  "description": "AI agent",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
+    "studio": "drizzle-kit studio",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aarush Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "@types/pg": "^8.11.11",
+    "drizzle-kit": "^0.30.5"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.22.0",
+    "ai-todo-agent": "file:",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.40.0",
+    "pg": "^8.13.3",
+    "readline-sync": "^1.4.10"
+  }
+}
